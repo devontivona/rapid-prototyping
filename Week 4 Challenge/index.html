@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Devon Tivona</title>
+    <link href='http://netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css' rel='stylesheet'>
+    <link href='http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css' rel='stylesheet'>
+    <link href='assets/stylesheets/base.css' rel='stylesheet'>
+    <script src='http://code.jquery.com/jquery-2.1.0.min.js'></script>
+    <script src='http://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js'></script>
+    <script src='assets/javascripts/base.js'></script>
+  </head>
+</html>
+<body>
+  <div class='jumbotron'>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-md-8 col-md-offset-2'>
+          <h1 style='margin-top: 10px'>Devon Tivona</h1>
+          <h2>Designer and Developer</h2>
+          <p>I am a designer and developer living in beautiful Boulder, Colorado. My favorite things include pixels, espresso, <span id='tooltip' data-placement='top' data-toggle='tooltop' title='I have been to over 10 countries!'>travel</span>, and brunch.</p>
+          <div class='dropdown'>
+            <a class='btn btn-primary' data-toggle='dropdown' href='#'>Contact me</a>
+            <ul aria-labelledby='dLabel' class='dropdown-menu' role='menu'>
+              <li>
+                <a>Facebook</a>
+              </li>
+              <li>
+                <a>Twitter</a>
+              </li>
+              <li>
+                <a>Email</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class='container'>
+    <div class='row'>
+      <div class='col-md-8 col-md-offset-2'>
+        <h1 style='margin-top: 0; margin-bottom: 20px'>Recent Work</h1>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-4 col-md-offset-2'>
+        <div class='thumbnail'>
+          <div class='carousel slide' data-ride='carousel' id='carousel-example-generic'>
+            <!-- Indicators -->
+            <ol class='carousel-indicators'>
+              <li class='active' data-slide-to='0' data-target='#carousel-example-generic'></li>
+              <li data-slide-to='1' data-target='#carousel-example-generic'></li>
+              <li data-slide-to='2' data-target='#carousel-example-generic'></li>
+            </ol>
+            <!-- Wrapper for slides -->
+            <div class='carousel-inner'>
+              <div class='item active'>
+                <img alt='...' src='http://tivona.me/assets/images/gallery/monospace@2x.png'>
+              </div>
+              <div class='item'>
+                <img alt='...' src='http://tivona.me/assets/images/gallery/ict4d@2x.png'>
+              </div>
+              <div class='item'>
+                <img alt='...' src='http://tivona.me/assets/images/gallery/amplitude@2x.png'>
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class='left carousel-control' data-slide='prev' href='#carousel-example-generic'>
+              <span class='glyphicon glyphicon-chevron-left'></span>
+            </a>
+            <a class='right carousel-control' data-slide='next' href='#carousel-example-generic'>
+              <span class='glyphicon glyphicon-chevron-right'></span>
+            </a>
+          </div>
+          <div class='caption'>
+            <button class='btn btn-primary' data-target='#modal' data-toggle='modal'>Website</button>
+            <button class='btn btn-default' data-target='#monospace-description' data-toggle='collapse'>More Details</button>
+            <p id='monospace-description'>Design and development of Monospace website. Sed semper nisl sit amet turpis consectetur, quis ultrices nulla pellentesque. Aliquam non euismod ligula. Duis posuere laoreet faucibus. Curabitur nec neque ultricies, porta turpis at, congue purus. Nullam sed mi suscipit eros imperdiet laoreet. Nunc ultrices, est non mollis posuere, velit enim commodo mauris, consequat semper elit erat a orci. Nulla libero quam, adipiscing sed orci ac, accumsan viverra tortor.</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='thumbnail'>
+          <img alt='...' src='http://tivona.me/assets/images/gallery/stanley@2x.png'>
+          <div class='caption'>
+            <button class='btn btn-primary' data-container='body' data-content='This project is not done! Stay tuned!' data-placement='top' data-toggle='popover' id='popover' type='button'>Website</button>
+            <button class='btn btn-default' data-target='#stanley-description' data-toggle='collapse'>More Details</button>
+            <p id='stanley-description'>Development of the Stanley Film Festival mobile app. Phasellus diam neque, feugiat vulputate porta vitae, mattis et elit. Quisque at vestibulum risus. Cras eu ultricies velit. Cras eget convallis leo. Duis sagittis nisi sit amet quam ornare aliquet. Nullam consectetur convallis velit id faucibus. Nunc blandit pretium lectus, posuere laoreet massa egestas ut. Etiam id fringilla nisi.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='row'>
+      <div class='col-md-4 col-md-offset-2'>
+        <div class='thumbnail'>
+          <img alt='...' src='http://tivona.me/assets/images/gallery/bug@2x.png'>
+          <div class='caption'>
+            <a class='btn btn-primary' href='#' role='button'>Website</a>
+            <button class='btn btn-default' data-target='#bug-description' data-toggle='collapse'>More Details</button>
+            <p id='bug-description'>Graphics and development of "Bug the Robot." Morbi nibh nibh, convallis sollicitudin condimentum ac, rutrum sed mauris. Aenean facilisis urna a ultricies cursus. Etiam nec sem nibh. Morbi tempus eros et nisi luctus, id euismod neque venenatis. Sed posuere aliquam iaculis. Ut at ante vitae sem placerat elementum ac tincidunt felis. Cras lorem est, iaculis in felis ac, volutpat ultrices velit. Integer non consequat ante.</p>
+          </div>
+        </div>
+      </div>
+      <div class='col-md-4'>
+        <div class='thumbnail'>
+          <img alt='...' src='http://tivona.me/assets/images/gallery/varsity@2x.png'>
+          <div class='caption'>
+            <a class='btn btn-primary' href='#' role='button'>Website</a>
+            <button class='btn btn-default' data-target='#varsity-description' data-toggle='collapse'>More Details</button>
+            <p id='varsity-description'>Business development of the Varsity playform. Curabitur nec neque ultricies, porta turpis at, congue purus. Nullam sed mi suscipit eros imperdiet laoreet. Nunc ultrices, est non mollis posuere, velit enim commodo mauris, consequat semper elit erat a orci. Nulla libero quam, adipiscing sed orci ac, accumsan viverra tortor.</p>
+          </div>
+        </div>
+      </div>
+      <div class='row footer'>
+        <div class='col-md-8 col-md-offset-2'>
+          <hr>
+          <p>Copyright Devon Tivona 2014. All Rights Reserved. Designed in Boulder, Colorado.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<!-- Modal -->
+<div aria-hidden='true' aria-labelledby='myModalLabel' class='modal fade' id='modal' role='dialog' tabindex='-1'>
+  <div class='modal-dialog modal-lg'>
+    <div class='modal-content'>
+      <div class='modal-header'>
+        <h4 class='modal-title' id='myModalLabel'>Monospace Website</h4>
+      </div>
+      <div class='modal-body'>
+        <iframe src='http://monospacecollective.com'></iframe>
+      </div>
+    </div>
+  </div>
+</div>
